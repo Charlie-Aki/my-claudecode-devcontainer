@@ -52,7 +52,7 @@
   },
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
   "workspaceFolder": "/workspace",
-  "postCreateCommand": "claude plugin install superpowers@claude-plugins-official",
+  "postCreateCommand": "claude plugin marketplace add anthropics/claude-plugins-official && claude plugin install superpowers@claude-plugins-official",
   "postStartCommand": "sudo /usr/local/bin/init-firewall.sh",
   "waitFor": "postStartCommand"
 }
