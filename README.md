@@ -24,6 +24,7 @@ Based on the official [anthropics/claude-code `.devcontainer`](https://github.co
 2. Open in VS Code
 3. When prompted, click **Reopen in Container** (or run `Dev Containers: Rebuild and Reopen in Container` from the Command Palette)
 4. The container will build and the firewall will be initialized automatically
+5. Run `gh auth login` to authenticate with GitHub (recommended on first startup)
 
 The [Claude Code Superpowers](https://claude.com/plugins/superpowers) plugin is automatically installed via `postCreateCommand`. It adds skills for test-driven development, systematic debugging, brainstorming, and more — guiding Claude through complex tasks step by step. Run `/using-superpowers` in Claude Code to get started.
 
